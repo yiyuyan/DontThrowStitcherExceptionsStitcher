@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.7",
+  "package": "cn.ksmcbrigade.dtaeml.mixins",
+  "refmap": "mixins.dtaeml.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinStitch"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

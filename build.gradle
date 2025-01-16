@@ -148,7 +148,7 @@ reobf {
 //TODO: Add your own MixinConfig(s)
 jar {
     manifest.attributes(
-        "FMLCorePlugin" : "com.example.examplemod.mixins.MixinLoader",
+        "FMLCorePlugin" : "cn.ksmcbrigade.dtaeml.mixins.MixinLoader",
         "ForceLoadAsMod": true,
         "TweakOrder": 0,
         "ModSide": "CLIENT",
