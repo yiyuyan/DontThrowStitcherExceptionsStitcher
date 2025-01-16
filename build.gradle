@@ -19,8 +19,8 @@ apply plugin: 'org.spongepowered.mixin'
 
 //TODO: Change the version, group, and archivesBaseName to your own.
 version = "1.0" // The version number of your mod.
-group = "com.example" // This is the group of the mod (usually domain or your name -> at.manuthebyte)
-archivesBaseName = "examplemod" // This is the name of the jar that is generated.
+group = "cn.ksmcbrigade" // This is the group of the mod (usually domain or your name -> at.manuthebyte)
+archivesBaseName = "dtaeml" // This is the name of the jar that is generated.
 
 sourceCompatibility = targetCompatibility = 1.8 // Java version to compile for.
 compileJava.options.encoding = "UTF-8" // Make sure that the encoding is set to UTF-8, so we have no encoding issues.
@@ -154,7 +154,7 @@ jar {
         "ModSide": "CLIENT",
         'FMLCorePluginContainsFMLMod': true,
         'TweakClass': 'org.spongepowered.asm.launch.MixinTweaker',
-        'MixinConfigs': 'mixins.examplemod.json'
+        'MixinConfigs': 'mixins.dtaeml.json'
     )
 }
 
@@ -163,7 +163,7 @@ jar {
 //TODO: Change the refmap name to your own
 sourceSets {
     main {
-        ext.refMap = "mixins.examplemod.refmap.json"
+        ext.refMap = "mixins.dtaeml.refmap.json"
     }
 }
 

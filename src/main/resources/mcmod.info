@@ -1,13 +1,13 @@
 [
 {
-  "modid": "examplemod",
-  "name": "ExampleMod",
-  "description": "Nice mod",
+  "modid": "dtaeml",
+  "name": "DontThrowStitcherExceptionsStitcher",
+  "description": "None",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["manuthebyte", "ExampleModDev"],
+  "authorList": ["KSmc_brigade"],
   "credits": "",
   "logoFile": "",
   "screenshots": [],
